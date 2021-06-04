@@ -8,10 +8,9 @@
 #'              matrix(rnorm(100), ncol = 6, nrow = 500))
 #' labels = factor(cbind(rep(1, 500), rep(2, 500)))
 #
-#' data.tsne <- Rtsne(data, dims = 2, perplexity=30, verbose=TRUE,
-#'                    max_iter = 500)
+#' get_data <- forvisualData(data, "tSNE")
 #'
-#' ggplot(data.frame(data.tsne$Y), aes(x = data.tsne$Y[,1], y = data.tsne$Y[,2])) +
+#' ggplot(data.frame(get_data), aes(x = get_data[,1], y = get_data[,2])) +
 #'   geom_point(aes(color = labels))+
 #'   ylab("dim2")+
 #'   xlab("dim1")+
