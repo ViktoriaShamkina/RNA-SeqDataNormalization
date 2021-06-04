@@ -1,0 +1,16 @@
+Package: RNASeqDataNormalization
+Type: Package
+Title: Normalizes RNA-Seq data 
+Version: 0.1.0
+Author: Viktoria Shamkina
+Maintainer: <viksham689@gmail.com>
+Description: The RNASeqDataNormalization package is a library for automatically detecting and adjusting 
+    technical factors such as batch effect and library size in single cell sequencing data 
+    using the Independent Component Method. The RNASeqDataNormalization package consists of a set of functions
+    written in the R language. The package can be used in based and applied biomedical research 
+    related to the study of the transcriptome of normal as well as altered human cells. 
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Suggests: Rtsne
+RoxygenNote: 7.1.1
